@@ -1,0 +1,60 @@
+
+.input-documento {
+    width: 50%; 
+    background-color: #dcebcabe;
+    color: white;
+    font-style: oblique;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D5E4CF;
+    margin: 0;       /* Eliminar margen */
+    padding: 0;      /* Eliminar padding */
+}
+
+
+h2 {
+    text-align: center;
+}
+
+
+form {
+   height: 750px;
+   width: 500px;
+   margin: 0;        /* Eliminar margen */
+   padding: 20px;    /* Ajustar o eliminar según necesites */
+   background-color: #ffffffbe;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   border-radius: 0px;
+  
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 75%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #dcebcabe;
+    margin-left: 45px;
+}
+
+input[type="submit"] {
+    background-color: #a9b690;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
