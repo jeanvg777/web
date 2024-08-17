@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    
+    <form id="formularioRegistro" action="procesar_formulario.php" method="POST">
+        <br><br>
+        <h2>Formulario</h2>
+         <br><br>
+        <input type="text" id="Documento" name="Documento" class="input-documento" placeholder="Documento" required><br><br>
+         
+        <div class="parametros">
+
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre" required><br><br>
+
+        <input type="date" id="Fecha_de_Nacimiento" name="Fecha_de_Nacimiento" placeholder="Fecha de Nacimiento" required><br><br>
+
+        <input type="text" id="Email" name="Email" placeholder="Email" required><br><br>
+
+        <input type="text" id="Direccion" name="Direccion" placeholder="Dirección" required><br><br>
+
+    </div>
+
+        <textarea id="Telefono" name="Telefono" placeholder="Teléfono"></textarea><br><br>
+
+        <input type="submit" value="Registrar">
+    </form>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
